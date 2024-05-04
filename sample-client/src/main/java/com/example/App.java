@@ -31,5 +31,5 @@ public class App implements EntryPoint, ElementsFactory, DominoCss {
                 }));
     });
     body().appendChild(layout);    
-	}
+  }
 }
