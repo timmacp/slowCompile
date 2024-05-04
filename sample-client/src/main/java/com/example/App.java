@@ -13,7 +13,7 @@ import org.dominokit.domino.ui.tree.TreeItem;
 
 public class App implements EntryPoint, ElementsFactory, DominoCss {
 
-  public void onModuleLoad() {
+	public void onModuleLoad() {
     
     var layout = AppLayout.create("Domino-ui starter");
     
@@ -31,5 +31,5 @@ public class App implements EntryPoint, ElementsFactory, DominoCss {
                 }));
     });
     body().appendChild(layout);    
-  }
+	}
 }
